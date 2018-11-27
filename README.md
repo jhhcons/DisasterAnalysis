@@ -13,7 +13,9 @@
 
 3. Go to http://0.0.0.0:3001/
 
+
 ### File descriptions
+
 data/process_data.py produces a sql database with message texts and categories, which can be used for training
 models/train_classifier.py loads this data, and produces a classification model
 app/run.py then runs the webapp which displays this information, and allows for realtime classifcation of new messages.
